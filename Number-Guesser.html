@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Number Guesser</title>
+  </head>
+  <header class="header">
+    <article class="header__name">
+      <span class="word1">Number</span>
+      <span class="word2"> Guesser</span>
+    </article>
+  </header>
+  <body>
+    <input role = "textbox" class="all__inputs range__input max__input" aria-label="Input maximum" type="number" placeholder="   Maximum">
+    <input role = "textbox" class="all__inputs range__input min__input" aria-label="Input minimum" type="number" placeholder="   Minimum">
+    <input role = "textbox" class="all__inputs guess__input" aria-label="Input your guess" type="number" placeholder="   Enter your guess">
+    </br>
+    <section class="section__btns">
+      <button role = "button" class="guess__btn btns" type="button" aria-label="Guess Button" disabled>Guess</button>
+      <button role = "button" class="clear__btn btns" type="button" aria-label="Clear Button" disabled>Clear</button>
+    </section>
+    <section class="section__results" hidden>
+      <p class="results__text"></p>
+      <p class="results__number"></p>
+      <p class="results__text display__text"></P>
+      <button role = "button" type="button" class="reset__btn btns" aria-label="Reset Button" disabled>Reset</button>
+    </section>
+  </body>
+  <script src="scripts.js"></script>
+</html>

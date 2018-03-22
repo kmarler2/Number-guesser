@@ -1,0 +1,170 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+ 
+.header {
+  background-color: #404041;
+  font-size: 90px;
+  height: 175px;
+  text-align: center;
+  width: 100%;
+}
+
+.header__name {
+  padding-top: 1.25%;
+}
+
+.word1 {
+  color: #ED458B;
+  font-weight: bold;
+}
+
+.word2 {
+  color: #E6E7E8;
+  font-weight: lighter;
+}
+
+.all__inputs {
+  border: 3px solid #E6E7E8;
+  color: #E6E7E8;
+  font-size: 2.5em;
+  font-weight: 300;
+  height: 60px;
+  margin-bottom: 75px;
+  margin-left: 30%;
+  margin-top: 75px;
+  text-overflow: hidden;
+  width: 40%;
+}
+
+.all__inputs::placeholder {
+  color: #E6E7E8;
+}
+
+.range__input {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  width: 15%;
+}
+
+.min__input {
+ margin-left: 9%;
+} 
+
+.clear__btn {
+  background-color: #929497;
+  border-radius: 30px;
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+  height: 65px;
+  width: 26.9%;
+}
+
+.btns:hover {
+  background-color: #EB008B;
+}
+
+.btns:disabled {
+  background-color: #D0D2D3;
+}
+
+.btns {
+  font-weight: lighter;
+}
+
+.guess__btn {
+  background-color: #929497;
+  border-radius: 30px;
+  color: white;
+  font-size: 50px;
+  height: 65px;
+  margin-right: 5%;
+  width: 26.9%;
+}
+
+.section__btns {
+  margin-left: 29%;
+}
+
+.section__results {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.results__text {
+  color: #404041;
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.results__number {
+  color: #EB008B;
+  font-size: 300px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.reset__btn {
+  background-color: #929497;
+  border-radius: 30px;
+  color: white;
+  font-size: 50px;
+  font-weight: lighter;
+  height: 65px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 44%;
+}
+
+@media screen and (max-width: 800px) {
+  .clear__btn {
+    font-size: 25px;
+  }
+
+  .guess__btn {
+    font-size: 25px;
+  }
+
+  .guess__input {
+    height: 50px;
+  }
+
+  .guess__input::placeholder {
+    font-size: 25px;
+  } 
+
+  .header {
+    font-size: 60px;
+    height: 115px;
+  }
+
+  .range__input {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .clear__btn {
+    font-size: 20 px;
+  }
+
+  .guess__btn {
+    font-size: 15px;
+  }
+
+  .guess__input {
+    font-size: 15px;
+  }
+  
+  .header {
+    font-size: 40px;
+    height: 75px;
+  }
+
+  .range__input {
+    font-size: 10px;
+  }
+}
